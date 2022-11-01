@@ -20,7 +20,7 @@ body {
     left: 70px;
 }
 
-#header {
+section#home h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -32,7 +32,7 @@ body {
     color: #070f18;
 }
 
-#menu {
+#home nav#menu {
     text-align: right;
     margin-top: 49px;
 }
