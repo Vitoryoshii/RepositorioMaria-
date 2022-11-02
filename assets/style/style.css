@@ -21,7 +21,6 @@ body {
 }
 
 section#home h1 {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -46,7 +45,6 @@ section#home h1 {
 #menu li {
     display: inline-block;
     margin-left: 20px;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -60,42 +58,29 @@ a {
     text-decoration: none;
 }
 
+#headerCta h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+}
+
+#headerCta p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
 #buttonCta {
     background: #1f7cff;
     border-radius: 50px;
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
     color:#ffffff;
     padding: 10px 25px;
-}
-
-#headerCta p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    color: #575455;
-}
-
-p.grey {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    color: #575455;
-    text-align: center;
-}
-
-#headerCta h1 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: black;
 }
 
 #headerImg {
@@ -106,21 +91,41 @@ p.grey {
     width: 100%;
 }
 
-.headerLogo {
-    text-align: center;
-}
-
 #clients {
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 #headerClientText {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
     color: #070F18;
+}
+
+#sectionLogo {
+    display: flex;
+    width: 700px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.headerLogo {
+    text-align: center;
+}
+
+p.grey {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+    text-align: center;
 }
 
 h2.red {
